@@ -13,7 +13,8 @@ CLI RSS scraper with lightweight user management and permanent storage in Postgr
 
 ## Setup
 1. Create a .gatorconfig.json file in your home directory
-    1 The file should contain the following format 
+
+The file should contain the following format 
         ```json
         {
                     "db_url": "postgres://**user.name**@localhost:5432/gator?sslmode=disable",
