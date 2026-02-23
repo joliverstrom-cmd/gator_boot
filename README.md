@@ -26,9 +26,9 @@ The file should contain the following format. You need to specify the db_url to 
 Commands follow the same structure: gator <command> [arguments...]
 
 *Example commands*
-- gator register <username> : Registers a new user and saves it to the user database
-- gator login <username> : Logs in the specified user. Can only be used for previously registered users
-- gator users : Shows all registered users and who is currently logged in
-- gator addfeed <name> <URL> : Adds the specified feed to database and registers the current user as feed follower
-- gator follow <url> : Subscribes current user to the specified feed
-- gator agg <interval> : Scrapes the available feeds, cycling through feeds with the specified interval. Intervals should be written as 5s, 5min, 1h etc.
+- `gator register <username>` : Registers a new user and saves it to the user database
+- `gator login <username>` : Logs in the specified user. Can only be used for previously registered users
+- `gator users` : Shows all registered users and who is currently logged in
+- `gator addfeed <name> <URL>` : Adds the specified feed to database and registers the current user as feed follower
+- `gator follow <url>` : Subscribes current user to the specified feed
+- `gator agg <interval>` : Scrapes the available feeds, cycling through feeds with the specified interval. Intervals should be written as 5s, 5min, 1h etc.
