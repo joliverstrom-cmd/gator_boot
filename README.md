@@ -21,6 +21,7 @@ The file should contain the following format. You need to specify the db_url to 
                     "current_user_name": "",
         }
 ```
+2. Run the program using `gator`followed by a command and optional arguments. E.g. `gator users`
 
 ## Usage
 Commands follow the same structure: gator <command> [arguments...]
